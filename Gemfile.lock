@@ -110,6 +110,8 @@ GEM
       multipart-post (>= 1.2, < 3)
     ffi (1.9.17)
     flutie (2.0.0)
+    font-awesome-sass (4.7.0)
+      sass (>= 3.2)
     formulaic (0.4.0)
       activesupport
       capybara
@@ -324,6 +326,7 @@ DEPENDENCIES
   dotenv-rails
   factory_girl_rails
   flutie
+  font-awesome-sass (~> 4.7.0)
   formulaic
   high_voltage
   honeybadger

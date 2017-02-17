@@ -1,0 +1,24 @@
+.global-navigation {
+  border-bottom: solid 1px #ddd;
+  height: 56px;
+  .brand-logo {
+    font-size: 2em;
+    font-weight: 800;
+    color: #252525;
+    padding: 0.25em;
+  }
+  ul.nav-menu {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      a {
+        padding: 1em 0.5em;
+        display: inline-block;
+      }
+    }
+  }
+}

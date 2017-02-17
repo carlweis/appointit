@@ -1,5 +1,6 @@
 <h2>Sign up</h2>
 
+<%= render partial: "application/facebook_button", locals: { button_text: "Sign up with Facebook" } %>
 <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= f.error_notification %>
 

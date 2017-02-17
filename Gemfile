@@ -63,7 +63,8 @@ group :staging, :production do
   gem "rack-timeout"
 end
 
-gem 'high_voltage'
-gem 'bourbon', '~> 5.0.0.beta.7'
-gem 'neat', '~> 2.0.0.beta.1'
-gem 'refills', group: [:development, :test]
+gem "high_voltage"
+gem "bourbon", "~> 5.0.0.beta.7"
+gem "neat", "~> 2.0.0.beta.1"
+gem "refills", group: [:development, :test]
+gem "font-awesome-sass", "~> 4.7.0"

@@ -1,0 +1,13 @@
+$facebook-blue: #3b5998;
+$twitter-blue: #55acee;
+
+.facebook-button {
+  display: inline-block;
+  background-color: $facebook-blue;
+  color: #ffffff;
+  padding: 1em 2em;
+  font-size: 1em;
+  &:hover {
+    color: #ffffff;
+  }
+}
