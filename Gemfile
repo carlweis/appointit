@@ -20,12 +20,17 @@ gem "sprockets", ">= 3.0.0"
 gem "suspenders"
 gem "title"
 gem "uglifier"
+gem "devise"
+gem "omniauth-facebook"
 
 group :development do
   gem "listen"
   gem "spring"
   gem "spring-commands-rspec"
   gem "web-console"
+  gem "letter_opener"
+  gem "better_errors"
+  gem "binding_of_caller"
 end
 
 group :development, :test do
